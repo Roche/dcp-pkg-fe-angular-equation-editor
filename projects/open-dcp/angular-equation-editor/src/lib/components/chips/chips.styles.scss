@@ -1,0 +1,59 @@
+:host ::ng-deep {
+  .mat-mdc-chip.mat-secondary {
+    background-color: rgb(72, 169, 166, 0.12); 
+    border-radius: 12px !important; 
+    .mat-icon {
+      color: rgb(72, 169, 166);
+    }
+    .mat-mdc-chip-action {
+      color: rgb(72, 169, 166);
+    }
+  } 
+  .mat-mdc-chip.mat-success {
+    background-color: rgb(76, 175, 80, 0.12);
+    border-radius: 12px !important;
+    .mat-icon {
+      color: rgb(76, 175, 80);
+    } 
+    .mat-mdc-chip-action {
+      color: rgb(76, 175, 80);
+    }
+  } 
+  .mat-mdc-chip.mat-warning {
+    background-color: rgb(251, 140, 0, 0.12); 
+    border-radius: 12px !important; 
+    .mat-icon {
+      color: rgb(251, 140, 0);
+    }
+    .mat-mdc-chip-action {
+      color: rgb(251, 140, 0);
+    }
+  } 
+  .mat-mdc-chip.mat-error {
+    background-color: rgb(176, 0, 32, 0.12);  
+    border-radius: 12px !important;
+    .mat-icon {
+      color: rgb(176, 0, 32);
+    }
+    .mat-mdc-chip-action {
+      color: rgb(176, 0, 32);
+    }
+  } 
+  .mat-mdc-chip.mat-info {
+    background-color: rgb(33, 150, 243, 0.12);  
+    border-radius: 12px !important;
+    .mat-icon {
+      color: rgb(33, 150, 243);
+    }
+    .mat-mdc-chip-action {
+      color: rgb(33, 150, 243);
+    }
+  } 
+}
+
+.chip-icon {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  line-height: 10px;
+}
